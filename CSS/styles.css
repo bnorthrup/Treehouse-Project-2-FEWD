@@ -10,7 +10,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+p {
     text-align: center;
     color: #424242;
 }
@@ -18,6 +19,18 @@ h3 {
 /*/// Class Styles 
 ||||||||||||||||||||||||||||
 |||||||||||||///*/
+
+.main-nav li {
+    text-align: center;
+    background: #FAFAFA;
+    margin: 8px 1em;
+    height: 40px;
+}
+
+.main-nav a{
+    margin-top: 8px;
+    display: inline-block;
+}
 
 
 
