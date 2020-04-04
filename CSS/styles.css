@@ -4,11 +4,15 @@
 
 body {
     font-family: "Roboto";
+    background: #EEE;
+
 }
 
-h1 {
+h1,
+h2,
+h3 {
     text-align: center;
-    color:
+    color: #424242;
 }
 
 /*/// Class Styles 
