@@ -2,6 +2,9 @@
 ||||||||||||||||||||||||||||
 |||||||||||||///*/
 
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: "Roboto";
     background: #FAFAFA;
@@ -58,92 +61,6 @@ nav {
     margin-bottom: 36px;
 }
 
-/*/// Class Styles 
-||||||||||||||||||||||||||||
-|||||||||||||///*/
-
-.main-nav li {
-    background: rgb(255, 255, 255);
-    border-radius: 4px;
-}
-
-.main-nav li a {
-    margin: 0 0 16px 0;
-    padding: 16px 0;
-    
-}
-
-.profile-image {
-    width: 70%;
-    margin: 0 auto;
-    display: block;
-    padding-bottom: 16px;
-}
-
-.profile-container {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.content-section img {
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-    padding-top: 24px;
-}
-
-.content-section {
-    background: white;
-    padding-bottom:24px;
-}
-
-.marketing-container {
-    padding-top: 16px;
-}
-
-.content-section p {
-    width: 90%;
-    margin: 16px auto;
-}
-
-.contact-container {
-    padding: 24px 0;
-}
-
-.contact-container p {
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 24px 0;
-}
-
-.contact-container span {
-    display: block;
-    color: #424242;
-    text-align: center;
-    padding: 8px 0;
-}
-
-.footer-container {
-    margin: 16px auto;
-    border-top: solid 1px rgba(189, 189, 189, 0.473);
-    width: 90%;
-}
-
-.footer-container h2,
- a {
-    display: block;
-    margin: 32px 0;
-}
-
-.footer-container h2{
-    float: left;
-}
-
-.footer-container a {
-    float: right;
-    padding: 4px;
-}
 /*/// Media Queries  
 ||||||||||||||||||||||||||||
 |||||||||||||///*/
@@ -151,17 +68,120 @@ nav {
 
 @media (min-width: 320px) {
 
-
-
-
+    .main-nav li {
+        background: rgb(255, 255, 255);
+        border-radius: 4px;
+    }
+    
+    .main-nav li a {
+        margin: 0 0 8px 0;
+        padding: 16px 8px;
+        
+    }
+    
+    .profile-image {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 16px;
+    }
+    
+    .profile-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .content-section img {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 24px;
+    }
+    
+    .content-section {
+        background: white;
+        padding-bottom:24px;
+    }
+    
+    .marketing-container {
+        padding-top: 16px;
+    }
+    
+    .content-section p {
+        width: 90%;
+        margin: 16px auto;
+    }
+    
+    .contact-container {
+        padding: 24px 0;
+    }
+    
+    .contact-container p {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 24px 0;
+    }
+    
+    .contact-container span {
+        display: block;
+        color: #424242;
+        text-align: center;
+        padding: 8px 0;
+    }
+    
+    .footer-container {
+        margin: 16px auto;
+        border-top: solid 1px rgba(189, 189, 189, 0.473);
+        width: 90%;
+    }
+    
+    .footer-container h2,
+     a {
+        display: block;
+        margin: 32px 0;
+    }
+    
+    .footer-container h2{
+        float: left;
+    }
+    
+    .footer-container a {
+        float: right;
+        padding: 4px;
+    }
+    
 }
 
 
 @media (min-width: 768px) {
 
+    .name {
+        padding: 40px 0 20px;
+        margin: 0;
+    }
+    .main-nav {
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+    
+    }
 
+    .main-nav li {
+        display: inline-block;
+        background:#FAFAFA;
+        margin: 0 20px;
+    }
 
-
+    .profile-image {
+        float: right;
+        width: 36%;
+    }
+    .profile-text {
+        float: left;
+        width: 60%;
+        text-align: left;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -171,3 +191,14 @@ nav {
 
 
 }
+
+
+/*/// Clearfix  
+||||||||||||||||||||||||||||
+|||||||||||||///*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
