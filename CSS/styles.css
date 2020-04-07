@@ -11,6 +11,9 @@ body {
 
 }
 
+b {
+    color: coral;
+}
 a {
     text-align: center;
     text-decoration: none;
@@ -151,6 +154,15 @@ nav {
         padding: 4px;
     }
     
+    .footer-home,
+    .footer-portfolio,
+    .footer-contact {
+        display: none;
+    }
+    .site-wrapper {
+        max-width: 320px;
+        margin: 0 auto;
+    }
 }
 
 
@@ -209,7 +221,9 @@ nav {
 
     .content-section {
         width: 100%;
-        margin-top: 48px;
+        margin: 48px auto;
+        max-width: 768px;
+
     }
 
     .travel-container {
@@ -238,14 +252,80 @@ nav {
         padding: 40px 0 16px;
         margin: 0;
     }
+
+    .bottom-nav {
+        float: right;
+
+    }
+
+
+    #footer-btt {
+        display: none;
+    }
+
+
+    .bottom-nav a {
+       display: inline-block;
+       float: left;
+       padding: 4px 16px;
+
+
+    }
+
+        .site-wrapper {
+            max-width: 768px;
+            margin: 0 auto;
+        }
 }
 
 @media (min-width: 1024px) {
 
+    .name {
+        float:left;
+        padding: 16px 0;
+    }
 
+    nav {
+        float: right;
+    }
 
+    .main-nav  {
+        width: 100%;
+    }
+    .header-container {
+        padding: 40px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
 
+    .col {
+        width: 33%;
+    }
 
+    .content-section {
+        width: 90%;
+        max-width: 1024px;
+    }
+
+    .profile-text {
+        width: 56%;
+        margin: 0;
+    }
+
+    .profile-image {
+        width: 35%;
+        margin: 0 20px;
+    }
+
+        .contact-container p {
+            width: 60%;
+            margin-bottom: 24px;
+        }
+
+    .site-wrapper {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
 }
 
 
