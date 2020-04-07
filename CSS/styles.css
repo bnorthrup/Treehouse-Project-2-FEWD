@@ -167,6 +167,13 @@ nav {
         padding: 20px 0;
 
     }
+
+    .inspiration img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 16px;
+    }
     .site-wrapper {
         max-width: 320px;
         margin: 0 auto;
@@ -294,6 +301,13 @@ nav {
         float: right;
     }
 
+    .inspiration img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 16px;
+    }
+
     .site-wrapper {
         max-width: 768px;
         margin: 0 auto;
@@ -345,6 +359,11 @@ nav {
             width: 60%;
             margin-bottom: 24px;
         }
+
+    .inspiration {
+        width: 90%;
+        margin: 0 auto;
+    }
     .inspiration img {
         width: 50%;
         margin: 0 auto;
