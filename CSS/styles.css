@@ -159,6 +159,14 @@ nav {
     .footer-contact {
         display: none;
     }
+
+    .inspiration img {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 0;
+
+    }
     .site-wrapper {
         max-width: 320px;
         margin: 0 auto;
@@ -174,7 +182,7 @@ nav {
     }
     .main-nav {
         margin: 0 auto;
-        width: 60%;
+        width: 80%;
         text-align: center;
     
     }
@@ -272,11 +280,27 @@ nav {
 
     }
 
-        .site-wrapper {
-            max-width: 768px;
-            margin: 0 auto;
-        }
+    .inspiration img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 16px;
+    }
+    .bonnie {
+        float: left;
+    }
+
+    .moon {
+        float: right;
+    }
+
+    .site-wrapper {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+       
 }
+
 
 @media (min-width: 1024px) {
 
@@ -321,6 +345,12 @@ nav {
             width: 60%;
             margin-bottom: 24px;
         }
+    .inspiration img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 16px;
+    }
 
     .site-wrapper {
         max-width: 1024px;
