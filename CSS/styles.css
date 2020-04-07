@@ -176,11 +176,67 @@ nav {
     .profile-image {
         float: right;
         width: 36%;
+        display: inline-block;
     }
     .profile-text {
         float: left;
-        width: 60%;
+        width: 62%;
         text-align: left;
+        font-size: 1.3em;
+        line-height: normal;
+        display: inline-block;
+        
+    }
+
+    .marketing-container {
+       float: left;
+       padding: 0;
+    }
+
+    .search-container {
+        float:right;
+        display: inline-block;
+    }
+
+    .col {
+        width: 50%;
+    }
+
+    .portfolio {
+        display: block;
+       
+    }
+
+    .content-section {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    .travel-container {
+        float: left;
+    }
+
+    .maps-container {
+        float: right;
+    }
+
+    .photo-gallery-container {
+        float: left;
+    }
+
+    .calculator-container {
+        float: right;
+    }
+
+    .contact-container p {
+        width: 70%;
+        font-size: 1.3em;
+    
+    }
+
+    .content-section h2 {
+        padding: 40px 0 16px;
+        margin: 0;
     }
 }
 
